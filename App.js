@@ -1,20 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Image, FlatList } from 'react-native';
+import Rotas from './src/paginas/rotas/index.js';
+import Cabecalho from './src/componentes/cabeçalho/index.js';
+import Pesquisa from './src/componentes/pesquisa/pesquisa.js';
+import Banner from './src/componentes/banner/banner.js';
+import Card from './src/componentes/card/card.js';
+import DATA from './DATA/movies.js'
+import HOME from './src/paginas/home/index.js';
+
+const imagem = Math.floor(Math.random() * 4 + 1)
+
+
+
 
 export default function App() {
+
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+<Rotas />
+ 
+
+
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
+
+
+
+
