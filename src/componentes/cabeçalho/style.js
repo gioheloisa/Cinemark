@@ -9,24 +9,24 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
 
         alignItems: "center",
-        marginTop: 40,
+        marginTop: 20,
         
     },
     textHeader: {
         fontSize: 30,
         color: "white",
         fontWeight: "bold",
-        marginRight: 75
+        marginRight: 10
     },
 
 
     img:{ 
-        logo:{ 
-            marginTop: 350,
-            width: 500,
-            height:290,
-            justifyContent: "center",
-        }
+        marginTop: 15,
+        marginBottom:50,
+        width: 400,
+        height: 290,
+        alignSelf: "center",
+        
     }
     
 });

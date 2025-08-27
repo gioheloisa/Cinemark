@@ -5,7 +5,8 @@ const styles = StyleSheet.create({
         flexDirection: "column",
         width: "20%",
         backgroundColor: "white",
-        marginTop: 30,
+        marginTop: 10,
+   
         alignItems: "center",
         borderRadius: 3
        

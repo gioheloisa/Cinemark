@@ -8,7 +8,7 @@ export default function Cabecalho() {
             <TouchableOpacity>
                 <Feather style={{ marginLeft: -70 }} name="menu" size={36} color="#FFF" />
             </TouchableOpacity>
-            <Image style={styles.img.logo} source={require("../../../assets/logo (1).png")} />
+            <Image style={styles.img.logo} source={require("../../../assets/rykc3gMUPxd4WkVHnYCXfKZD-removebg-preview.png")} />
         </View>
     );
 }

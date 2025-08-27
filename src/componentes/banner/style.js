@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     imagebanner: {
         width: 700,
         height: 300,
-        marginTop: 10,
+        marginTop: 20,
         
 
     },
